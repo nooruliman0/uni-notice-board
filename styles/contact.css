@@ -1,0 +1,35 @@
+/* Contact Page Layout */
+.contact-container {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px; /* space for fixed footer */
+}
+
+.contact-card {
+  background-color: #f9f9f9;
+  padding: 30px;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card h2 {
+  margin-bottom: 15px;
+  color: #1f2933;
+}
+
+.contact-card p {
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.contact-details {
+  list-style: none;
+}
+
+.contact-details li {
+  margin-bottom: 10px;
+  color: #333333;
+}
