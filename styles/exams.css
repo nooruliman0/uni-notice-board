@@ -1,0 +1,14 @@
+.exam-list {
+  margin-top: 20px;
+}
+
+.exam-item {
+  background-color: #f4f4f4;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-left: 5px solid #4a90e2;
+}
+
+.exam-item h3 {
+  margin-bottom: 5px;
+}
