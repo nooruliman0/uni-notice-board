@@ -1,0 +1,46 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.main-header {
+  background-color: #1f2933;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.nav-links {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin: 0 12px;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.main-footer {
+  background-color: #1f2933;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

@@ -1,0 +1,26 @@
+
+.notice-container {
+  max-width: 900px;
+  margin: 120px auto 80px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+
+.notice-container h2 {
+  color: #1f2933;
+  margin-bottom: 15px;
+}
+
+.notice-list {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.notice-list li {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f2f4f7;
+  border-left: 4px solid #1f2933;
+  border-radius: 3px;
+}
