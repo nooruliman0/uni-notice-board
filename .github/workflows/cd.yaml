@@ -6,7 +6,7 @@ on:
       - main
 jobs:
   dev-dep-job:
-    environment: "development_env"
+    environment: "development"
     runs-on: ubuntu-latest
     steps:
       - name: Dev Deployment Job
