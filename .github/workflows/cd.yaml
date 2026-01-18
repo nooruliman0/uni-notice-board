@@ -1,0 +1,15 @@
+name: development-workflow
+on:
+  push:
+    branches:
+      - develop
+      - main
+jobs:
+  dev-dep-job:
+    environment: "development_env"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dev Deployment Job
+        run: echo "your app is going to deploy on render"
+      - name: send message to render
+        run: curl -X POST ${{secrets.RENDER_DEP_HOOK}}
