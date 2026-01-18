@@ -1,18 +1,15 @@
-name: development-workflow
-
+name: dev-cd-wf
 on:
-  workflow_run:
-    workflows: ["ci-wf"]
-    types: [completed]
-
+  push:
+    branches:
+      - develop
 jobs:
   dev-dep-job:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    environment: "development"
     runs-on: ubuntu-latest
-    environment: development
     steps:
       - name: Dev Deployment Job
-        run: echo "Deploying to Render..."
-
-      - name: Send message to Render
-        run: curl -X POST ${{ secrets.RENDER_DEP_HOOK }}
+        run: echo "your app is going to deploy on render"
+      - name: send message to render
+      # call back url 
+        run: curl -X POST ${{secrets.RENDER_DEP_HOOK}}
