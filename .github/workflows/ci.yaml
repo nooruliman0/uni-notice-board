@@ -55,4 +55,4 @@ jobs:
       - name: List Running Containers
         run: docker container ls
       - name: push docker image on Dh
-        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/app:lastest
+        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}//uni-notice-board:lastest .
